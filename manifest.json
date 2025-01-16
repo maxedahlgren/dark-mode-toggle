@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Dark Mode Toggle",
+  "version": "1.0",
+  "description": "Toolbar button to toggle dark mode",
+  "icons": {
+    "48": "icons/toggle.svg",
+    "96": "icons/toggle.svg"
+  },
+  "browser_action": {
+    "default_icon": "icons/toggle.svg",
+    "default_title": "Toggle dark mode"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "browserSettings"
+  ]
+}
